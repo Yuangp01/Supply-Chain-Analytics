@@ -2,19 +2,19 @@
 <h1>Supply Chain & E-commerce Analytics Dashboard</h1>
 
 <blockquote>
-  An interactive Power BI business intelligence project connecting
-  sales performance, delivery reliability, shipping efficiency,
-  and product profitability to support evidence-based
-  operational decisions.
+  An interactive Power BI analytics solution transforming
+  supply chain and e-commerce data into actionable insights
+  for delivery performance, operational efficiency,
+  sales analysis, and profitability management.
 </blockquote>
 
 <p>
-  <img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/POWER%20BI-F2C811?style=for-the-badge&logoColor=black" alt="Power BI"/>
   <img src="https://img.shields.io/badge/POWER%20QUERY-217346?style=for-the-badge&logoColor=white" alt="Power Query"/>
   <img src="https://img.shields.io/badge/DAX-E9A500?style=for-the-badge&logoColor=black" alt="DAX"/>
   <img src="https://img.shields.io/badge/DATA%20MODELING-0068A9?style=for-the-badge&logoColor=white" alt="Data Modeling"/>
-  <img src="https://img.shields.io/badge/HTML%20%2F%20CSS-1A849C?style=for-the-badge&logoColor=white" alt="HTML and CSS"/>
-  <img src="https://img.shields.io/badge/SUPPLY%20CHAIN-238A66?style=for-the-badge&logoColor=white" alt="Supply Chain"/>
+  <img src="https://img.shields.io/badge/HTML%20%2F%20CSS-1684A0?style=for-the-badge&logoColor=white" alt="HTML CSS"/>
+  <img src="https://img.shields.io/badge/SUPPLY%20CHAIN-24875A?style=for-the-badge&logoColor=white" alt="Supply Chain"/>
 </p>
 
 <hr>
@@ -22,32 +22,33 @@
 <h2>🎯 Business Context</h2>
 
 <p>
-  Sales growth alone does not guarantee a healthy supply chain.
-  Businesses need to understand whether orders are fulfilled
-  as scheduled, which regions and shipping methods experience
-  delays, and where seemingly strong sales conceal
-  unprofitable transactions.
+  Modern supply chains generate large volumes of transactional
+  and operational data. However, evaluating sales alone is
+  insufficient to understand whether a business is operating
+  efficiently, fulfilling delivery commitments, and protecting
+  profitability.
+</p>
+
+<p>
+  Delivery delays, inconsistent shipping performance,
+  and loss-making transactions can remain hidden behind
+  positive aggregate sales figures.
 </p>
 
 <p>
   <strong>
-    This project brings commercial and operational performance
-    into one interactive Power BI reporting experience.
+    This project demonstrates an interactive Power BI solution
+    that connects sales performance, shipment reliability,
+    and product profitability to support data-driven
+    operational decisions.
   </strong>
-  It enables decision-makers to move from high-level KPIs
-  to regional patterns, product categories, and individual
-  orders that warrant investigation.
 </p>
 
-<h3>Business Objectives</h3>
-
-<ul>
-  <li>Monitor sales, profit, orders, and customer activity in one executive view.</li>
-  <li>Assess shipment reliability against scheduled fulfillment timelines.</li>
-  <li>Compare performance by region, shipping mode, product category, and customer segment.</li>
-  <li>Identify loss-making orders and categories for further financial review.</li>
-  <li>Enable self-service investigation through interactive filters and detailed order tables.</li>
-</ul>
+<p>
+  The dashboard enables decision-makers to monitor executive
+  KPIs, identify operational patterns, and investigate
+  individual orders through an integrated reporting experience.
+</p>
 
 <hr>
 
@@ -60,19 +61,19 @@
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="./executive_overview.png">
+      <a href="./images/Executive%20Overview.png">
         <img
-          src="./executive_overview.png"
-          alt="Executive Overview Power BI dashboard"
+          src="./images/Executive%20Overview.png"
+          alt="Supply Chain Executive Overview Dashboard"
           width="100%"
         />
       </a>
     </td>
     <td width="50%" align="center">
-      <a href="./delivery_profitability.png">
+      <a href="./images/Delivery%20Profitability.png">
         <img
-          src="./delivery_profitability.png"
-          alt="Delivery and Profitability Power BI dashboard"
+          src="./images/Delivery%20Profitability.png"
+          alt="Supply Chain Delivery and Profitability Dashboard"
           width="100%"
         />
       </a>
@@ -82,8 +83,9 @@
 
 <p align="center">
   <em>
-    Two complementary report pages: commercial performance
-    and operational investigation.
+    Two interactive Power BI report pages combining
+    commercial analytics with operational
+    performance monitoring.
   </em>
 </p>
 
@@ -93,162 +95,202 @@
 
 <table>
   <tr>
-    <th>Metric</th>
-    <th>Displayed Value</th>
-    <th>What It Helps Evaluate</th>
+    <th>Business Metric</th>
+    <th>Dashboard Value</th>
+    <th>Analytical Purpose</th>
   </tr>
   <tr>
     <td>Total Sales</td>
     <td><strong>$2.25M</strong></td>
-    <td>Commercial activity</td>
+    <td>Monitor commercial performance</td>
   </tr>
   <tr>
     <td>Total Profit</td>
     <td><strong>$248.63K</strong></td>
-    <td>Reported profitability</td>
+    <td>Evaluate aggregate profitability</td>
   </tr>
   <tr>
     <td>Total Orders</td>
     <td><strong>17,350</strong></td>
-    <td>Order volume</td>
+    <td>Measure order activity</td>
   </tr>
   <tr>
     <td>Customers</td>
     <td><strong>9,300</strong></td>
-    <td>Customer reach</td>
+    <td>Understand customer reach</td>
   </tr>
   <tr>
     <td>Late Delivery Rate</td>
     <td><strong>57.2%</strong></td>
-    <td>Delivery service reliability</td>
+    <td>Monitor delivery reliability</td>
   </tr>
   <tr>
     <td>Average Shipping Days</td>
     <td><strong>3.5 days</strong></td>
-    <td>Shipping duration</td>
+    <td>Evaluate shipping duration</td>
   </tr>
   <tr>
     <td>Average Delivery Delay</td>
     <td><strong>1.6 days</strong></td>
-    <td>Delay among late orders</td>
+    <td>Measure delay among late orders</td>
   </tr>
   <tr>
     <td>Orders with Losses</td>
     <td><strong>3,319</strong></td>
-    <td>Unprofitable orders requiring investigation</td>
+    <td>Identify unprofitable orders</td>
+  </tr>
+  <tr>
+    <td>Recorded Loss on Loss-Making Orders</td>
+    <td><strong>$214,111</strong></td>
+    <td>Assess financial exposure in negative-profit orders</td>
   </tr>
 </table>
 
 <p>
   <em>
-    Values are transcribed from the provided Power BI report
-    screenshots. Metric definitions and totals should be
-    reconciled against the underlying model before
-    operational deployment.
+    KPI values reflect the supplied Power BI report screenshots
+    and their displayed filter contexts.
   </em>
 </p>
 
 <hr>
 
-<h2>📈 Page 1 — Executive Overview</h2>
+<h2>🔍 Business Questions</h2>
 
 <p>
-  The Executive Overview gives leadership an integrated
-  view of revenue, profitability, order activity, and
-  product performance without losing the ability to
-  inspect individual transactions.
+  The analytical solution was designed to investigate
+  six key business questions:
+</p>
+
+<ol>
+  <li>
+    <strong>Commercial Performance:</strong>
+    How are sales and profitability performing over time?
+  </li>
+  <li>
+    <strong>Product Profitability:</strong>
+    Which product categories contribute the most profit,
+    and where are losses concentrated?
+  </li>
+  <li>
+    <strong>Delivery Reliability:</strong>
+    What proportion of shipments miss their scheduled
+    delivery commitments?
+  </li>
+  <li>
+    <strong>Shipping Efficiency:</strong>
+    How does delivery performance differ across
+    shipping methods?
+  </li>
+  <li>
+    <strong>Regional Performance:</strong>
+    Which geographic regions exhibit the largest
+    concentration of delayed shipments?
+  </li>
+  <li>
+    <strong>Operational Investigation:</strong>
+    Which individual orders and products require
+    further attention?
+  </li>
+</ol>
+
+<hr>
+
+<h2>📈 Executive Overview</h2>
+
+<p>
+  The Executive Overview provides leadership with
+  a consolidated picture of sales performance,
+  profitability, order activity, and customer reach.
+</p>
+
+<h3>Core Analytical Features</h3>
+
+<ul>
+  <li>Dynamic executive KPI cards</li>
+  <li>Monthly sales trend analysis</li>
+  <li>Previous-year sales comparisons</li>
+  <li>Top five product categories by profit</li>
+  <li>Customer and order performance monitoring</li>
+  <li>Detailed transactional order analysis</li>
+  <li>Interactive filters across multiple business dimensions</li>
+  <li>Quick Investigations for delivery classifications</li>
+</ul>
+
+<h3>Interactive Filtering</h3>
+
+<p>
+  Users can explore performance by:
 </p>
 
 <ul>
-  <li>
-    <strong>Executive KPI cards:</strong>
-    Sales, profit, orders, customers, late delivery rate,
-    and average shipping days.
-  </li>
-  <li>
-    <strong>Monthly Sales Trend:</strong>
-    Monthly sales with a previous-year comparison
-    series in the visual.
-  </li>
-  <li>
-    <strong>Top 5 Categories by Profit:</strong>
-    Comparison of category-level profit contribution.
-  </li>
-  <li>
-    <strong>Order Performance Details:</strong>
-    Product, category, quantity, sales, profit,
-    delivery status, shipping mode, and order date.
-  </li>
-  <li>
-    <strong>Quick Investigations:</strong>
-    Order-level entry points for late delivery,
-    advance shipping, and on-time classifications.
-  </li>
-  <li>
-    <strong>Interactive slicers:</strong>
-    Year, market, order region, shipping mode,
-    category, and customer segment.
-  </li>
+  <li>Year</li>
+  <li>Market</li>
+  <li>Order Region</li>
+  <li>Shipping Mode</li>
+  <li>Product Category</li>
+  <li>Customer Segment</li>
 </ul>
 
 <p>
-  <strong>Analytical purpose:</strong>
-  Identify financial patterns and move from aggregated
-  metrics to the orders and product groups driving
-  those results.
+  <strong>Business Value:</strong>
+  Enables executives to transition from high-level
+  financial monitoring to individual products,
+  categories, and transactions that influence
+  business performance.
 </p>
 
 <hr>
 
-<h2>🚚 Page 2 — Delivery &amp; Profitability</h2>
+<h2>🚚 Delivery &amp; Profitability Analysis</h2>
 
 <p>
-  This page focuses on fulfillment reliability and
-  financial exceptions, helping users compare shipping
-  performance and investigate delayed or loss-making orders.
+  The second dashboard page focuses on fulfillment
+  reliability, shipping performance, delivery delays,
+  and loss-making transactions.
+</p>
+
+<h3>Core Analytical Features</h3>
+
+<ul>
+  <li>Late delivery rate monitoring</li>
+  <li>Average delivery delay analysis</li>
+  <li>Late shipment counts by region</li>
+  <li>Late shipment rates by shipping mode</li>
+  <li>Actual versus scheduled shipping days</li>
+  <li>Top five product categories by recorded profit loss</li>
+  <li>Loss-making order identification</li>
+  <li>Order-level investigation of operational exceptions</li>
+</ul>
+
+<h3>Orders Requiring Attention</h3>
+
+<p>
+  A detailed investigation table provides visibility
+  into orders with shipping delays and profitability
+  concerns.
+</p>
+
+<p>
+  Available fields include:
 </p>
 
 <ul>
-  <li>
-    <strong>Late Delivery Rate:</strong>
-    Headline shipment reliability indicator.
-  </li>
-  <li>
-    <strong>Average Delivery Delay:</strong>
-    Additional context for late shipments.
-  </li>
-  <li>
-    <strong>Late Shipments by Region:</strong>
-    Comparison of late-shipment counts across regions.
-  </li>
-  <li>
-    <strong>Late Shipment Rate by Shipping Mode:</strong>
-    Service-level comparison across Standard,
-    Second, First, and Same Day classes.
-  </li>
-  <li>
-    <strong>Actual vs Scheduled Shipping Days:</strong>
-    Side-by-side comparison of timing commitments
-    and realized duration.
-  </li>
-  <li>
-    <strong>Top 5 Categories by Profit Loss:</strong>
-    Categories associated with losses from
-    unprofitable orders.
-  </li>
-  <li>
-    <strong>Orders Requiring Attention:</strong>
-    Detailed view of order ID, region, product,
-    category, shipping mode, days late, profit,
-    and delivery status.
-  </li>
+  <li>Order ID</li>
+  <li>Order Region</li>
+  <li>Product Name</li>
+  <li>Product Category</li>
+  <li>Shipping Mode</li>
+  <li>Days Late</li>
+  <li>Order Profit</li>
+  <li>Delivery Status</li>
 </ul>
 
 <p>
-  <strong>Analytical purpose:</strong>
-  Prioritize follow-up reviews using both service
-  performance and financial context rather than
-  a single headline metric.
+  <strong>Business Value:</strong>
+  Helps operational teams identify where to investigate
+  shipping performance while enabling financial
+  analysis of unprofitable transactions.
 </p>
 
 <hr>
@@ -256,40 +298,46 @@
 <h2>🧩 Custom Power BI Report-Page Tooltips</h2>
 
 <p>
-  I designed two compact, custom-styled report-page
-  tooltips to surface additional KPI context without
-  overcrowding the main dashboards.
+  To improve dashboard usability and provide richer
+  analytical context, I developed two custom
+  Power BI report-page tooltips.
 </p>
 
 <p>
-  The designs use
-  <strong>HTML/CSS-based card layouts</strong>,
-  iconography, semantic colors, and
-  <strong>DAX-driven metrics</strong>
-  to communicate financial and delivery performance
-  at a glance.
+  These tooltips combine <strong>DAX-based KPIs</strong>
+  with <strong>HTML/CSS-styled components</strong>,
+  creating compact analytical summaries that complement
+  the primary reporting pages.
 </p>
+
+<p>
+  Instead of adding more visuals to an already
+  information-dense dashboard, the tooltips provide
+  contextual metrics within a focused, readable layout.
+</p>
+
+<h3>Tooltip Design Preview</h3>
 
 <table>
   <tr>
-    <th align="center">Category Performance Tooltip</th>
-    <th align="center">Delivery Performance Tooltip</th>
+    <th align="center">Category Performance</th>
+    <th align="center">Delivery Performance</th>
   </tr>
   <tr>
     <td width="50%" align="center">
-      <a href="./category_performance_tooltip.png">
+      <a href="./images/Tooltip%201.png">
         <img
-          src="./category_performance_tooltip.png"
-          alt="Custom Power BI tooltip: Category Performance"
+          src="./images/Tooltip%201.png"
+          alt="Custom Category Performance Power BI Tooltip"
           width="100%"
         />
       </a>
     </td>
     <td width="50%" align="center">
-      <a href="./delivery_performance_tooltip.png">
+      <a href="./images/Tooltip%202.png">
         <img
-          src="./delivery_performance_tooltip.png"
-          alt="Custom Power BI tooltip: Delivery Performance"
+          src="./images/Tooltip%202.png"
+          alt="Custom Delivery Performance Power BI Tooltip"
           width="100%"
         />
       </a>
@@ -300,91 +348,139 @@
 <h3>Tooltip 01 — Category Performance</h3>
 
 <p>
-  Groups <strong>Total Sales, Total Profit, Total Loss,
-  and Profit Margin</strong> into one four-card financial
-  summary.
+  The Category Performance tooltip presents four
+  financial indicators in a compact 2x2 card layout:
 </p>
 
+<ul>
+  <li><strong>Total Sales:</strong> Revenue generated within the applicable filter context.</li>
+  <li><strong>Total Profit:</strong> Recorded positive and negative profit contributions.</li>
+  <li><strong>Total Loss:</strong> Loss-related financial performance.</li>
+  <li><strong>Profit Margin:</strong> Profitability relative to sales.</li>
+</ul>
+
 <p>
-  Blue, green, red, and teal visual cues help
-  distinguish revenue, profit, losses, and margin
-  without requiring a separate report page.
+  Semantic color coding distinguishes financial metrics:
+</p>
+
+<ul>
+  <li>Blue — Sales performance</li>
+  <li>Green — Profitability</li>
+  <li>Red — Financial losses</li>
+  <li>Teal — Profit margin</li>
+</ul>
+
+<p>
+  <strong>Analytical Purpose:</strong>
+  Helps users evaluate category-level commercial
+  performance without navigating away from
+  the primary reporting experience.
 </p>
 
 <h3>Tooltip 02 — Delivery Performance</h3>
 
 <p>
-  Groups <strong>Eligible Orders, Late Shipments,
-  Late Shipment Rate, and Average Shipping Days</strong>
-  to provide context for fulfillment performance.
+  The Delivery Performance tooltip brings together
+  four operational indicators:
 </p>
-
-<p>
-  Its color-coded cards draw attention to service
-  exceptions while preserving a readable,
-  compact layout.
-</p>
-
-<h3>How I Built the Tooltips</h3>
-
-<ol>
-  <li>
-    <strong>Dedicated tooltip pages:</strong>
-    Created separate pages with compact layouts
-    appropriate for contextual reporting.
-  </li>
-  <li>
-    <strong>Custom presentation:</strong>
-    Structured four KPI cards in HTML/CSS with icons,
-    borders, spacing, and consistent typography.
-  </li>
-  <li>
-    <strong>Context-aware metrics:</strong>
-    Used Power BI/DAX measures to populate cards
-    within the applicable report filter context.
-  </li>
-  <li>
-    <strong>Visual consistency:</strong>
-    Matched card styling, color semantics,
-    and branding to the main dashboards.
-  </li>
-  <li>
-    <strong>Usability refinement:</strong>
-    Iterated on card sizes and padding to keep
-    all four metrics readable within the tooltip canvas.
-  </li>
-</ol>
-
-<h3>Why This Is Good BI Practice</h3>
 
 <ul>
-  <li>
-    <strong>Progressive disclosure:</strong>
-    Presents extra detail when relevant without
-    adding visual clutter.
-  </li>
-  <li>
-    <strong>Faster interpretation:</strong>
-    Groups related KPIs so users can assess
-    a category or delivery issue together.
-  </li>
-  <li>
-    <strong>Consistent design:</strong>
-    Reinforces the meaning of positive, negative,
-    and operational indicators.
-  </li>
-  <li>
-    <strong>Analytical continuity:</strong>
-    Supports investigation while maintaining
-    the user's report context.
-  </li>
+  <li><strong>Eligible Orders:</strong> Orders included in the applicable delivery calculation.</li>
+  <li><strong>Late Shipments:</strong> Shipments classified as delayed.</li>
+  <li><strong>Late Shipment Rate:</strong> Reported percentage of delayed shipments.</li>
+  <li><strong>Average Shipping Days:</strong> Average observed shipping duration.</li>
 </ul>
 
 <p>
+  The compact KPI layout uses visual hierarchy
+  and consistent color semantics to emphasize
+  delivery exceptions and operational performance.
+</p>
+
+<p>
+  <strong>Analytical Purpose:</strong>
+  Provides supporting shipment metrics during
+  operational analysis without overcrowding
+  the main dashboard.
+</p>
+
+<h3>How I Built the Custom Tooltips</h3>
+
+<ol>
+  <li>
+    <strong>Dedicated Report Pages:</strong>
+    Created separate tooltip pages within Power BI,
+    using compact page dimensions appropriate
+    for contextual reporting.
+  </li>
+  <li>
+    <strong>Custom HTML/CSS Layout:</strong>
+    Designed four-card KPI components with
+    controlled spacing, typography, borders,
+    icons, and semantic colors.
+  </li>
+  <li>
+    <strong>DAX Measures:</strong>
+    Connected KPI components to Power BI measures
+    for financial and delivery performance.
+  </li>
+  <li>
+    <strong>Report Integration:</strong>
+    Configured report-page tooltip behavior
+    to present supporting metrics within the
+    appropriate report context.
+  </li>
+  <li>
+    <strong>Iterative Optimization:</strong>
+    Refined spacing, card dimensions, and text
+    sizes to improve readability within
+    limited tooltip space.
+  </li>
+</ol>
+
+<h3>Why This Represents Good BI Design Practice</h3>
+
+<table>
+  <tr>
+    <th>Design Principle</th>
+    <th>Implementation</th>
+  </tr>
+  <tr>
+    <td>Progressive Disclosure</td>
+    <td>Additional metrics are available without cluttering the primary view.</td>
+  </tr>
+  <tr>
+    <td>Contextual Analysis</td>
+    <td>Related KPIs support deeper investigation.</td>
+  </tr>
+  <tr>
+    <td>Visual Consistency</td>
+    <td>Consistent typography, spacing, and color semantics.</td>
+  </tr>
+  <tr>
+    <td>Information Hierarchy</td>
+    <td>Important values remain immediately visible.</td>
+  </tr>
+  <tr>
+    <td>Efficient Navigation</td>
+    <td>Supporting information can be inspected without opening another full report page.</td>
+  </tr>
+</table>
+
+<p>
+  <strong>Technical Skills Demonstrated:</strong>
+  Power BI Report-Page Tooltips |
+  DAX |
+  HTML/CSS |
+  KPI Design |
+  User Experience Design |
+  Context-Aware Analytics
+</p>
+
+<p align="center">
   <em>
-    The images illustrate the report-page tooltip layouts.
-    Hover interactions require opening the Power BI report;
-    GitHub displays static screenshots.
+    GitHub displays static screenshots of the tooltip designs.
+    Interactive behavior is available within Power BI.
   </em>
 </p>
 
@@ -392,316 +488,335 @@
 
 <h2>⚙️ Analytical Workflow &amp; Technical Implementation</h2>
 
-<ol>
-  <li>
-    <strong>Data preparation — Power Query:</strong>
-    Prepare source fields, data types, and
-    reporting-ready transformations.
-  </li>
-  <li>
-    <strong>Data modeling:</strong>
-    Relate transactional order detail to relevant
-    order, product, category, customer, and date attributes.
-  </li>
-  <li>
-    <strong>DAX measures:</strong>
-    Build reusable KPIs for sales, profit, distinct
-    orders, delivery timing, and profitability analysis.
-  </li>
-  <li>
-    <strong>Dashboard design:</strong>
-    Combine KPI cards, trend charts, categorical
-    comparisons, slicers, and operational detail tables.
-  </li>
-  <li>
-    <strong>Investigation design:</strong>
-    Add quick-investigation views, visual filtering,
-    and custom tooltip pages.
-  </li>
-  <li>
-    <strong>Quality review:</strong>
-    Check metric grain, filter behavior, date context,
-    and denominator consistency across visuals.
-  </li>
-</ol>
-
-<h3>Design Principles</h3>
-
-<ul>
-  <li>Prioritize decision-relevant KPIs above secondary measures.</li>
-  <li>Use consistent colors for profitability and delivery risk.</li>
-  <li>Separate high-level monitoring from order-level diagnosis.</li>
-  <li>Use tooltips for contextual detail rather than overloading dashboard pages.</li>
-  <li>Distinguish shipment counts from shipment rates when comparing groups.</li>
-</ul>
-
-<hr>
-
-<h2>🔍 Business Questions Answered</h2>
-
-<ol>
-  <li>
-    How much sales and profit does the selected
-    reporting scope generate?
-  </li>
-  <li>
-    Which product categories contribute the most profit?
-  </li>
-  <li>
-    How do monthly sales patterns vary across the
-    displayed period?
-  </li>
-  <li>
-    Where are late shipments most concentrated
-    by region and shipping mode?
-  </li>
-  <li>
-    How do actual shipping durations compare
-    with scheduled commitments?
-  </li>
-  <li>
-    Which orders and categories should be
-    investigated for profitability issues?
-  </li>
-</ol>
-
-<hr>
-
-<h2>💡 Findings &amp; Business Interpretation</h2>
-
-<h3>01 — Shipping Reliability Is a Priority Review Area</h3>
+<h3>01 — Data Preparation</h3>
 
 <p>
-  The report displays a
+  Power Query was used to support data preparation
+  and transformation, including reporting-ready
+  field organization and data-type management.
+</p>
+
+<h3>02 — Data Modeling</h3>
+
+<p>
+  The analytical model connects order information
+  with relevant customer, product, category,
+  and date attributes.
+</p>
+
+<p>
+  This structure supports multi-dimensional
+  analysis and interactive filtering
+  across operational and financial measures.
+</p>
+
+<h3>03 — DAX Development</h3>
+
+<p>
+  DAX measures provide reusable calculations for
+  commercial and operational KPIs, including
+  sales, profitability, order volume,
+  delivery performance, and shipping duration.
+</p>
+
+<h3>04 — Interactive Dashboard Development</h3>
+
+<p>
+  The report integrates executive KPI cards,
+  time-series visualizations, categorical comparisons,
+  detailed tables, and interactive slicers.
+</p>
+
+<h3>05 — Advanced Visualization Design</h3>
+
+<p>
+  Custom HTML/CSS KPI components were developed
+  to improve visual communication, including
+  report-page tooltips and detailed
+  performance displays.
+</p>
+
+<h3>06 — Analytical Investigation</h3>
+
+<p>
+  The reporting experience supports investigation
+  across regions, shipping classes, categories,
+  and individual orders.
+</p>
+
+<hr>
+
+<h2>💡 Key Analytical Findings</h2>
+
+<h3>01 — Delivery Reliability Requires Operational Attention</h3>
+
+<p>
+  The dashboard reports a
   <strong>57.2% late delivery rate</strong>,
-  making fulfillment reliability a central issue
-  for operational investigation.
+  indicating a substantial operational
+  reliability concern in the displayed reporting context.
 </p>
 
 <p>
-  A high overall percentage should be followed
-  by segmented analysis rather than attributed
-  immediately to any single shipping mode or region.
+  <strong>Business Implication:</strong>
+  Operations teams should investigate shipment delays
+  by region, shipping class, and order characteristics
+  before prioritizing corrective action.
 </p>
 
-<h3>02 — Strong Overall Sales Can Coexist with Loss-Making Orders</h3>
+<h3>02 — Positive Aggregate Profitability Masks Individual Losses</h3>
 
 <p>
-  The Executive Overview reports
-  <strong>$2.25M in sales</strong> and
-  <strong>$248.63K in profit</strong>,
-  while the Delivery &amp; Profitability page
-  identifies <strong>3,319 orders with losses</strong>.
-</p>
-
-<p>
-  Aggregate profitability therefore does not
-  eliminate the need for transaction-level review.
-</p>
-
-<h3>03 — Shipping Modes Should Be Assessed Against Their Own Commitments</h3>
-
-<p>
-  The report compares late-shipment rates
-  and actual versus scheduled shipping days
-  across shipping classes.
+  The dashboard reports
+  <strong>$2.25M in total sales</strong>
+  and approximately
+  <strong>$248.63K in total profit</strong>.
 </p>
 
 <p>
-  Service evaluation should account for promised
-  delivery time rather than simply assuming
-  that faster service always performs better.
-</p>
-
-<h3>04 — Regional Late-Shipment Volume Helps Direct Investigation</h3>
-
-<p>
-  The region chart highlights differences in
-  late-shipment counts.
+  However, the Delivery &amp; Profitability page
+  also identifies <strong>3,319 orders with losses</strong>
+  and approximately <strong>$214K in recorded losses</strong>
+  for those orders.
 </p>
 
 <p>
-  However, a region with a high number of late
-  shipments may also process more orders, so late
-  counts should be reviewed alongside shipment
-  volumes and comparable late rates.
+  <strong>Business Implication:</strong>
+  Aggregate financial performance should be supplemented
+  with order-level profitability investigations
+  to identify potential financial risk.
+</p>
+
+<h3>03 — Geographic Regions Show Different Delay Volumes</h3>
+
+<p>
+  Central America and Western Europe appear among
+  the regions with higher counts of late shipments
+  in the displayed regional comparison.
+</p>
+
+<p>
+  <strong>Business Implication:</strong>
+  Regional late-shipment counts should be evaluated
+  alongside total shipment volumes and late rates
+  to avoid misleading comparisons.
+</p>
+
+<h3>04 — Shipping Methods Exhibit Different Service Patterns</h3>
+
+<p>
+  The dashboard compares fulfillment performance
+  across Standard Class, Second Class,
+  First Class, and Same Day shipping.
+</p>
+
+<p>
+  <strong>Business Implication:</strong>
+  Each shipping method should be evaluated
+  against its scheduled service commitment,
+  rather than comparing shipping duration alone.
+</p>
+
+<h3>05 — Category Profitability Supports Targeted Investigation</h3>
+
+<p>
+  The Executive Overview identifies leading categories
+  by profit, including Cleats and Cardio Equipment
+  among the visible top performers.
+</p>
+
+<p>
+  The Delivery &amp; Profitability page separately
+  highlights categories associated with losses
+  from unprofitable orders.
+</p>
+
+<p>
+  <strong>Business Implication:</strong>
+  Businesses should evaluate positive and negative
+  profit contributions together to identify categories
+  that warrant closer investigation.
 </p>
 
 <hr>
 
-<h2>🎯 Recommended Next Actions</h2>
+<h2>🎯 Business Recommendations</h2>
 
 <table>
   <tr>
     <th>Priority</th>
-    <th>Recommendation</th>
-    <th>Decision Supported</th>
+    <th>Recommended Action</th>
+    <th>Business Objective</th>
   </tr>
   <tr>
-    <td>High</td>
-    <td>
-      Review late shipments by region and shipping class,
-      accounting for total order volume.
-    </td>
-    <td>Focus operational investigations.</td>
+    <td><strong>High</strong></td>
+    <td>Investigate delayed shipments across markets and shipping modes.</td>
+    <td>Identify operational reliability issues.</td>
   </tr>
   <tr>
-    <td>High</td>
-    <td>
-      Examine negative-profit orders and categories.
-    </td>
-    <td>Identify potential pricing, discount, or cost issues.</td>
+    <td><strong>High</strong></td>
+    <td>Review loss-making orders and product categories.</td>
+    <td>Identify sources of negative profitability.</td>
   </tr>
   <tr>
     <td>Medium</td>
-    <td>
-      Compare actual and scheduled shipping durations
-      by service level.
-    </td>
-    <td>Evaluate service commitments.</td>
+    <td>Compare actual versus scheduled shipping durations.</td>
+    <td>Evaluate fulfillment commitments.</td>
   </tr>
   <tr>
     <td>Medium</td>
-    <td>
-      Investigate recurring delays at the order level.
-    </td>
-    <td>Develop testable hypotheses about bottlenecks.</td>
+    <td>Assess regional delay rates alongside order volumes.</td>
+    <td>Prioritize meaningful operational patterns.</td>
   </tr>
   <tr>
     <td>Ongoing</td>
-    <td>
-      Track reconciled KPIs across consistent reporting periods.
-    </td>
-    <td>Measure whether subsequent interventions improve performance.</td>
+    <td>Monitor consistent KPIs across comparable reporting periods.</td>
+    <td>Evaluate performance changes over time.</td>
   </tr>
 </table>
 
 <p>
-  <strong>Interpretation note:</strong>
-  The dashboard supports prioritization and diagnosis.
-  It does not, on its own, prove what caused a delay
-  or quantify savings from an intervention.
+  <strong>Analytical Note:</strong>
+  These recommendations identify areas for investigation.
+  The dashboard does not independently establish
+  root causes of delays or quantify financial
+  savings from operational interventions.
 </p>
 
 <hr>
 
-<h2>🛠️ Skills Demonstrated</h2>
+<h2>🧠 Skills Demonstrated</h2>
 
 <table>
   <tr>
-    <th>Technical / Analytical Skill</th>
+    <th>Skill</th>
     <th>Project Application</th>
   </tr>
   <tr>
     <td><strong>Power BI</strong></td>
-    <td>Interactive, multi-page analytical reporting</td>
+    <td>Multi-page interactive analytical dashboards.</td>
   </tr>
   <tr>
     <td><strong>Power Query</strong></td>
-    <td>Data preparation and transformations</td>
+    <td>Data preparation and transformation.</td>
   </tr>
   <tr>
     <td><strong>DAX</strong></td>
-    <td>Context-sensitive measures and KPI calculations</td>
+    <td>Context-sensitive KPIs and business measures.</td>
   </tr>
   <tr>
     <td><strong>Data Modeling</strong></td>
-    <td>Order, product, customer, and calendar relationships</td>
+    <td>Relationships between operational and descriptive data.</td>
   </tr>
   <tr>
-    <td><strong>HTML / CSS</strong></td>
-    <td>Custom KPI card layouts and tooltip presentation</td>
+    <td><strong>HTML/CSS</strong></td>
+    <td>Custom KPI cards and tooltip design.</td>
   </tr>
   <tr>
     <td><strong>Data Visualization</strong></td>
-    <td>Trends, ranked comparisons, tables, slicers, and semantic color</td>
+    <td>Trend charts, KPI cards, comparisons, and interactive tables.</td>
+  </tr>
+  <tr>
+    <td><strong>UX Design</strong></td>
+    <td>Contextual tooltips, visual hierarchy, and dashboard navigation.</td>
   </tr>
   <tr>
     <td><strong>Business Analysis</strong></td>
-    <td>Connecting financial outcomes with operational performance</td>
+    <td>Operational and financial performance investigation.</td>
   </tr>
   <tr>
     <td><strong>Data Storytelling</strong></td>
-    <td>Turning performance patterns into decision-oriented recommendations</td>
+    <td>Translating analytical findings into business recommendations.</td>
   </tr>
 </table>
 
 <hr>
 
-<h2>✅ Data Quality &amp; Interpretation Considerations</h2>
+<h2>✅ Data Quality &amp; Analytical Considerations</h2>
+
+<p>
+  Reliable business intelligence requires consistent
+  metric definitions, appropriate data granularity,
+  and clearly documented filter behavior.
+</p>
 
 <ul>
   <li>
-    <strong>Grain:</strong>
-    Validate distinct order counts when the model
-    contains multiple line items per order.
+    <strong>Order Granularity:</strong>
+    Distinct order counts should account for multiple
+    line items associated with the same order.
   </li>
   <li>
-    <strong>Profit:</strong>
-    Confirm whether the profit field is additive
-    at order-item level before interpreting
-    category allocations.
+    <strong>Profit Allocation:</strong>
+    Product and category profitability should use
+    validated additive profit calculations.
   </li>
   <li>
-    <strong>Delivery measures:</strong>
-    Reconcile late-shipment counts, eligible-order counts,
-    and late-rate denominators under the same filters.
+    <strong>Delivery Classification:</strong>
+    Late-shipment metrics should consistently apply
+    approved eligibility and timing definitions.
   </li>
   <li>
-    <strong>Time comparisons:</strong>
-    Check selected date periods and comparable populations
-    before interpreting year-over-year changes.
+    <strong>Measure Reconciliation:</strong>
+    Counts and percentages should be validated
+    against the same population and filter context.
   </li>
   <li>
-    <strong>Sources:</strong>
-    Match displayed KPIs to the underlying dataset/model
-    before treating them as production-validated results.
-  </li>
-</ul>
-
-<hr>
-
-<h2>📁 Repository Files</h2>
-
-<ul>
-  <li>
-    <code>README.md</code> — Project overview and analytical documentation.
-  </li>
-  <li>
-    <code>SupplyChain.pbix</code> — Power BI report file.
-  </li>
-  <li>
-    <code>executive_overview.png</code> — Executive Overview screenshot.
-  </li>
-  <li>
-    <code>delivery_profitability.png</code> — Delivery &amp; Profitability screenshot.
-  </li>
-  <li>
-    <code>category_performance_tooltip.png</code> — Category Performance tooltip screenshot.
-  </li>
-  <li>
-    <code>delivery_performance_tooltip.png</code> — Delivery Performance tooltip screenshot.
-  </li>
-  <li>
-    <code>Presentation.pdf</code> — Project presentation, if included in the repository.
+    <strong>Time Comparability:</strong>
+    Year-over-year reporting should use consistent
+    date periods and comparable populations.
   </li>
 </ul>
 
 <p>
-  <a href="./SupplyChain.pbix">
-    <strong>📥 Download the Power BI Report (.pbix)</strong>
-  </a>
-  &nbsp; | &nbsp;
+  <em>
+    A validation item remains open for the displayed
+    delivery tooltip: 9,466 late shipments divided by
+    17,350 eligible orders equals approximately 54.6%,
+    rather than 57.2%. The DAX measures and filter
+    contexts should be reconciled before interpreting
+    those values as one consistent ratio.
+  </em>
+</p>
+
+<hr>
+
+<h2>📁 Repository Contents</h2>
+
+<ul>
+  <li>
+    <code>README.md</code> — Complete project documentation.
+  </li>
+  <li>
+    <code>Presentation.pdf</code> — Project presentation.
+  </li>
+  <li>
+    <code>images/Executive Overview.png</code> — Executive dashboard screenshot.
+  </li>
+  <li>
+    <code>images/Delivery Profitability.png</code> — Delivery dashboard screenshot.
+  </li>
+  <li>
+    <code>images/Tooltip 1.png</code> — Category Performance tooltip.
+  </li>
+  <li>
+    <code>images/Tooltip 2.png</code> — Delivery Performance tooltip.
+  </li>
+</ul>
+
+<p>
   <a href="./Presentation.pdf">
     <strong>📄 View Project Presentation</strong>
   </a>
 </p>
 
 <p>
-  To explore the interactive report, download the PBIX
-  file and open it using Power BI Desktop.
-  GitHub displays screenshots but does not run
-  Power BI interactions.
+  <em>
+    To explore the interactive report, open its
+    PBIX file in Microsoft Power BI Desktop.
+    GitHub displays documentation and screenshots
+    but does not execute Power BI reports.
+  </em>
 </p>
 
 <hr>
@@ -710,15 +825,20 @@
 
 <p>
   <strong>Yuan Gonzalez</strong><br/>
-  Data Analytics &amp; Business Intelligence<br/>
+  Data Analyst | Business Intelligence | Power BI
+</p>
+
+<p>
   <a href="https://github.com/Yuangp01">
     GitHub Profile
   </a>
 </p>
 
+<hr>
+
 <p align="center">
   <strong>
-    Turning supply chain data into clear,
-    actionable business decisions.
+    Turning complex supply chain data into
+    actionable business intelligence.
   </strong>
 </p>
