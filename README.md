@@ -422,12 +422,6 @@ potential operational improvements.
 </ul>
 
 <p>
-  <a href="./SupplyChain.pbix">
-    <strong>📥 Download Power BI Dashboard</strong>
-  </a>
-</p>
-
-<p>
 To explore the interactive dashboard, download the PBIX file
 and open it using Microsoft Power BI Desktop.
 </p>
